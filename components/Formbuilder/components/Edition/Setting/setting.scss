@@ -1,0 +1,105 @@
+.setting{
+    background-color: #fff; 
+    box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.3); 
+    padding: 0px; 
+    margin: 0px
+}
+
+.banniere{
+   padding: 10px; 
+}
+
+.banniere ul {
+    display: flex; 
+    flex-direction: row; 
+    list-style: none;
+    margin: none; 
+    padding: none; 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+.banniere ul li {
+    padding: 0px 5px;
+    cursor: pointer; 
+    opacity: .7;  
+    flex-grow:0;
+}
+
+.banniere ul li.space{
+    flex-grow: 1; 
+}
+
+
+.banniere ul li:hover{
+    transition: .5s; 
+    opacity: 1; 
+}
+
+
+.panelSetting{
+ padding: 10px; 
+}
+
+// bouton : ajouter un paramètre
+/*------------------------------------------------------*/
+
+.contextMenuPopup{
+    position: absolute; 
+    top : 10px; 
+}
+
+// Panel :
+/*------------------------------------------------------*/
+
+.panel{
+    margin : 10px 0px;
+    padding: 0px; 
+    box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.3); 
+}
+
+.panel hr {
+    margin: 0px; 
+
+
+}
+
+
+.panelBanniere{
+    display: flex; 
+    flex-direction: row; 
+    list-style: none;
+    margin: none; 
+    padding: none; 
+    margin: 0px; 
+    padding: 0px; 
+    padding: 10px  10px  10px  5px ; 
+}
+
+.panelBanniere li {
+    padding: 0px 5px;
+    cursor: pointer; 
+    opacity: .7;  
+    flex-grow:0;
+}
+
+
+
+.panelBanniere li h3{
+    margin: 0px; 
+    font-size: 20px; 
+}
+
+.panelBanniere li.space{
+    flex-grow: 1; 
+}
+
+
+.panelBanniere  li:hover{
+    transition: .5s; 
+    opacity: 1; 
+}
+
+.panelContent{
+
+}

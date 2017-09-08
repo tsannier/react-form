@@ -1,0 +1,31 @@
+$dull-black: #4A4A4A !default;
+$black-base: #000000 !default;
+$white-base: #ffffff !default;
+
+$peter-river: #3498db;
+$turquise: #1abc9c;
+$green-sea: #16a085;
+$wet-asphalt: #34495e;
+$concrete: #95a5a6;
+$clouds: #ecf0f1;
+$silver: #bdc3c7;
+$midnight-blue: #2c3e50;
+
+$roboto: 'Roboto', sans-serif;
+
+:global {
+@import "node_modules/react-dd-menu/src/scss/react-dd-menu.scss"
+
+}
+
+:global{
+
+    .dd-menu-items li{
+        z-index: 8; 
+        padding: .75em 1.5em;
+        font-size: 1em; 
+        border-bottom:  black 1px solid; 
+        font-weight: 400; 
+      
+    }
+}

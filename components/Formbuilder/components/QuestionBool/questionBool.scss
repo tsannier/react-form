@@ -1,0 +1,28 @@
+// 1. QuestionBool
+// ==========================================================================
+
+.question{
+    display: flex; 
+    padding: 10px 0px; 
+    flex-direction: row; 
+    border-bottom: 1px solid grey;
+    background-color: #FFF; 
+ 
+}
+
+.reponse{
+    width: 20%; 
+}
+
+.lib{
+  width : 78%; 
+  margin : 0px 2% 0px 0px; 
+}
+
+ 
+.MessageError{
+    color: #b94a48; 
+    background-color: #f2dede; 
+    padding: 5px 10px
+}
+

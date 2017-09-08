@@ -1,0 +1,17 @@
+
+
+.lib{
+    color: #0478a0;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 8px 0px; 
+    border-bottom: solid 5px  #0478a0; 
+    background-color: #FFF; 
+}
+
+.lib :focus{
+    outline: none;
+    box-shadow:none;
+    border-color:transparent;
+}
+

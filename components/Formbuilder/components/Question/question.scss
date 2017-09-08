@@ -1,0 +1,115 @@
+
+// 1. Question 
+// ==========================================================================
+
+.question{
+    display: flex; 
+    align-items : baseline; 
+    border-bottom: 1px solid grey;
+    background-color: #FFF; 
+    padding: 0px; 
+
+}
+
+.reponse{
+   min-width: 100px; 
+}
+
+
+.lib{
+    flex-grow: 1; 
+    margin : 5px; 
+}
+
+@media screen and (min-width: 768px){
+    .reponse{
+        min-width: 320px; 
+    }
+}
+
+
+
+// 2. Information  
+// ==========================================================================
+
+
+.information{
+    display: flex; 
+    flex-direction: column; 
+    color : #b94a48; 
+    padding : 5px; 
+    background-color: #f2dede; 
+    border-bottom: 1px solid grey;
+}
+
+
+.textarea{
+    padding : 5px; 
+    min-width: 320px; 
+    height:  70px; 
+    resize:none;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+}
+
+
+.addText{
+     padding : 5px; 
+    min-width: 320px; 
+    background-color: #F8F8F8; 
+    display: flex; 
+    justify-content: center; 
+    cursor : pointer; 
+    opacity: .6; 
+    resize:none;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.addText:hover{
+    opacity: 1; 
+    transition : .4s; 
+}
+
+.addTextIcon{
+    padding : 20px 0px; 
+    height: 20px; 
+}
+
+
+
+.addInformation{
+    background-color: #D8D8D8; 
+    margin: 5px; 
+    display: flex; 
+    justify-content: center; 
+    cursor : pointer; 
+    opacity: .6;  
+    resize:none;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.addInformation:hover{
+    opacity: .4; 
+    transition : .4s; 
+}
+
+.addInformationIcon{
+    padding : 5px 0px; 
+    height: 30px; 
+}
+
+
+@media screen and (min-width: 768px){
+
+    .information{
+        flex-direction: row; 
+        
+    }
+}

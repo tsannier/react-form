@@ -1,0 +1,33 @@
+.bouton {
+    background-color:  #0478a0; 
+    color : white;
+    display: inline-block;  
+    border : none; 
+    font-size: 18px; 
+    padding: 10px; 
+    margin : 10px 10px 10px 0px; 
+    cursor:  pointer; 
+    opacity: .7; 
+}
+
+.validation {
+    background-color:#00973f; 
+    color : white;
+    display: inline-block;  
+    border : none; 
+    font-size: 18px; 
+    padding: 10px; 
+    margin : 10px 10px 10px 0px; 
+    cursor:  pointer; 
+    opacity: .7; 
+}
+
+.validation:hover{
+    opacity: 1; 
+    transition: .7s; 
+}
+
+.bouton:hover{
+    opacity: 1; 
+    transition: .7s; 
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Bool",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Bool.js"
+}

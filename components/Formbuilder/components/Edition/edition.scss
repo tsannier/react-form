@@ -1,0 +1,141 @@
+.edit{
+    position: relative; 
+    background-color: #f6f5f5; 
+    margin  : 0px 1%;
+}
+
+
+.component{
+    border: #d1d3d4 5px solid
+
+}
+
+
+
+
+// bouton de paramétrage 
+
+.editButton{
+    z-index: 1;
+    position: absolute; 
+    right: -10px; 
+    top : 20px
+}
+
+
+.buttonParameter{
+    padding: 5px; 
+    height: 20px; 
+    width: 20px; 
+    background-color: #0478a0; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+
+.buttonParameter:hover{
+    transition: .5s; 
+    background-color: #0463A0; 
+}
+
+.editActif {
+       box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.3);
+}
+
+.dragAndDrop{
+    padding: 7px 0px; 
+    height: 18px;
+    display: flex; 
+    justify-content: center;
+}
+ 
+.dragAndDrop svg{
+    cursor: move;
+    display: block;
+}
+
+.menuEdition{
+    height: 35px; 
+}
+
+.transitDragging{
+    height: 60px; 
+    border: dashed 4px #222
+}
+
+.addComponent{
+    display: flex;  
+    justify-content: center; 
+    height: 21px; 
+    position: relative; 
+}
+.addIcon{
+    top : -6px; 
+    display: none;
+    position: absolute; 
+    cursor: pointer;
+    height: 33px;
+    opacity: 1; 
+    transition: .7s; 
+}
+
+.addComponent:hover  .addIcon{
+    display: block;
+}
+
+.buttonAddComponent{
+    font-size: 18px; 
+    font-weight: 500; 
+    color: #455358; 
+    background-color: white; 
+    padding: 20px 0px; 
+    text-align: center; 
+    margin: 5px 0px; 
+    box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.3);
+
+}
+
+
+.textAddComponent{
+
+    display: inline-block; 
+    text-align: center;
+    border-bottom: 5px   #0478a0  solid; 
+    padding: 0 0 0.75rem;
+    cursor: pointer; 
+}
+
+.linkAddComponent{
+    display: inline-block; 
+}
+
+
+.textAddComponent:hover{
+    box-sizing: border-box; 
+    border-bottom-color :  #ffcd1f; 
+    color: #ffcd1f ; 
+}
+
+.contextMenuPopup{
+    color: #455358; 
+    margin-top: 28px; 
+}
+
+.componentType{
+    opacity: .5;
+    font-size: .8em; 
+    font-weight: 700;  
+    cursor: pointer; 
+    display: inline-block
+}
+
+.componentType:hover{
+    opacity: 1; 
+    transition : .7s; 
+}
+
+
+.menuItems{
+    position: absolute; 
+    z-index: 2;
+}
